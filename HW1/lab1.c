@@ -115,9 +115,7 @@ int launchProcess(char **command) {
 			}
 		} else {
 			if(op != 1) {
-				wait(NULL);
-				
-				//waitpid(child_id, &status, 0);
+				wait(NULL);				
 			}
 		}
 	}
